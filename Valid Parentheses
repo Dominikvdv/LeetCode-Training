@@ -1,7 +1,7 @@
 x='[)[]]]'
 # x enhält Eingabe String
 txt = x.replace('()','').replace('[]','').replace('{}','')
-# "löschen" aller geschlossenen Klammern aus x ergibt einen String, der nurnoch offene Klammern oder nichts enthält
+# "löschen" aller geschlossenen Klammern aus x ergibt einen String "txt", der nurnoch offene Klammern oder nichts enthält
 if len(txt) == 0:
     print('wahr')
 else:
